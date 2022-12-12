@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+}
+
+header
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.tres
+{
+    background-color: #F0F2F2 ;
+    text-align: right;
+    padding-right: 1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+.cuatro
+{
+    background-color: antiquewhite;
+    text-align: center;
+    font-family: consolas;
+}
+
+.uno
+{
+    color: #3D83CD;
+    font-family: consolas;
+    font-size: 18pt;
+}
+
+.dos
+{
+    color: #7C6FBB;
+    font-family: consolas;
+    font-size: 18pt;
+}
+
+.registrarse, .inicio, .iniciarsesion
+{
+    font-family: consolas;
+    text-decoration: none;
+    padding: 0.2%;
+    background-color: #E0E0E0;
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    color: black;
+}
+
+.registrarse:hover, .iniciarsesion:hover, .inicio:hover
+{
+    background-color: #B5A1E2;
+}
+
+.registrarse, .inicio
+{
+    margin-right: 0.3%;
+}
+
+footer
+{
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: consolas;
+}
+
+.cinco
+{
+    padding-left: 1%;
+    padding-right: 1em;
+    border-right: 1px solid white;
+}
+
+.normas
+{
+    color: white;
+    text-decoration: none;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-right: 1px solid white;
+}
+
+.normas:hover
+{
+    background-color: white;
+    color: black;
+}
+
+.contacta
+{
+    color: white;
+    text-decoration: none;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.contacta:hover
+{
+    background-color: white;
+    color: black;
+}
+
+article>div
+{
+    margin-left: 1%;
+    font-family: consolas;
+}
+
+img
+{
+    float: right;
+    margin-right: 10%;
+}
+
+form>label
+{
+    color: #5892F0;
+}
+
+form>p
+{
+    color: #C990E9;
+    margin-top: -0.2%;
+}
+
+.seis
+{
+    font-family: consolas;
+}
+
+.errmail
+{
+    font-family: consolas;
+    color: red;
+    border: none;
+    background-color: white;
+}
+
+.siete
+{
+    width: 40%;
+    font-family: consolas;
+    background-color: #C4FF33;
+    text-align: center;
+    padding: 0.5%;
+    margin-left: 1%;
+    font-size: 9pt;
+}
+
+.ocho
+{
+    color: #C990E9;
+}

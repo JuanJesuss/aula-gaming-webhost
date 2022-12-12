@@ -1,0 +1,281 @@
+body{
+    margin: 0;
+}
+
+header
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.tres
+{
+    background-color: #F0F2F2;
+    display: flex;
+}
+
+.cuatro
+{
+    background-color: antiquewhite;
+    text-align: center;
+    font-family: consolas;
+}
+
+.uno
+{
+    color: #3D83CD;
+    font-family: consolas;
+    font-size: 18pt;
+}
+
+.dos
+{
+    color: #7C6FBB;
+    font-family: consolas;
+    font-size: 18pt;
+}
+
+.usuario
+{
+    font-family: consolas;
+    font-size: 16pt;
+    text-decoration: none;
+    padding: 0.4em 0.8em 0.4em 0.8em;
+    background-color: #FBFCDA;
+    border: 1px solid #CFCFB4;
+    border-radius: 20px;
+    color: #289E2D;
+}
+
+footer
+{
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: consolas;
+}
+
+.cinco
+{
+    padding-left: 1%;
+    padding-right: 1em;
+    border-right: 1px solid white;
+}
+
+.normas
+{
+    color: white;
+    text-decoration: none;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-right: 1px solid white;
+}
+
+.normas:hover
+{
+    background-color: white;
+    color: black;
+}
+
+.contacta
+{
+    color: white;
+    text-decoration: none;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.contacta:hover
+{
+    background-color: white;
+    color: black;
+}
+
+nav{
+    margin-left: -1.3%;
+}
+
+.nueve
+{
+    margin-top: -0.01em;
+    background-color: #FBF1FD;
+    display: flex;
+    list-style: none;
+}
+
+.nueve>li
+{
+    padding: 0.4% 0.8%;
+}
+
+.nueve>li:hover
+{
+    background-color: #F4B5DD;
+}
+
+.nueve>li a
+{
+    font-family: consolas;
+    text-decoration: none;
+    color: #6D6D73;
+}
+
+.reservar, .anular, .reservas, .misreservas, .mispartidas
+{
+    border-right: 1px solid #A5A5A9;
+}
+
+.anular
+{
+    background-color: #F4B5DD;
+}
+
+.tres>div:nth-child(1){
+    width: 3.7%;
+}
+
+.tres>div:nth-child(2){
+    font-family: consolas;
+    width: 20%;
+    margin-top: 1.1%;
+    margin-left: 1%;
+}
+
+.tres>div:nth-child(3)
+{
+    width: 7%;
+    align-self: center;
+    text-align: center;
+    margin-left: 21%;
+}
+
+.tres>div:nth-child(4)
+{
+    width: 10%;
+    align-self: center;
+    margin-left: 37%;
+}
+
+.modoregistrador
+{
+    text-decoration: none;
+    padding: 3%;
+    background-color: #E0E0E0;
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    color: black;
+}
+
+.modoregistrador:hover{
+    background-color: #B5A1E2;
+}
+
+.veinte
+{
+    font-family: consolas;
+    font-size: 11pt;
+}
+
+.horizontal
+{
+    list-style: none;
+    display: flex;
+    margin-left: -1.4em;
+}
+
+.horizontal li:hover .vertical
+{
+    display: block;
+}
+
+.vertical
+{
+    position: absolute;
+    display: none;
+    margin-top: 0.5%;
+    border: 1px solid #CFCFB4;
+    list-style: none;
+    width: 8%;
+    background-color: #FBFCDA;
+    font-family: consolas;
+}
+
+.vertical>li:hover
+{
+    background-color: #F8FCB0;
+}
+
+.vertical>li
+{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-left: -2.4em;
+}
+
+.vertical>li>a
+{
+    text-decoration: none;
+    color: #289E2D;
+}
+
+select
+{
+    margin-bottom: 0.5%;
+}
+
+article>div
+{
+    margin-left: 2.3%;
+    font-family: consolas;
+}
+
+article>div img
+{
+    float: right;
+    margin-right: 10%;
+}
+
+.doce{
+    color: #5892F0;
+}
+
+.trece
+{
+    font-family: consolas;
+    margin-bottom: 0.5%;
+}
+
+.catorce
+{
+    color: red;
+}
+
+.quince
+{
+    font-family: consolas;
+}
+
+.dieciseis
+{
+    color: #C990E9;
+}
+
+.diecisiete
+{
+    margin-top: -0.1%;
+    font-family: consolas;
+    color: #C990E9;
+}
+
+.dieciocho
+{
+    margin-top: -0.5%;
+    margin-left: 0.5%;
+    font-family: consolas;
+    color: #7C6FBB;
+}
