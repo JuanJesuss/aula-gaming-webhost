@@ -25,5 +25,6 @@
             }           
         }            
     }
+    $anio= date('Y');
     require_once("../views/iniciar-sesion.php");
 ?>
