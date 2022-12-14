@@ -9,7 +9,7 @@
         while($row = mysqli_fetch_assoc($alias)){
             array_push($todos_alias, $row['alias']);
         }
-        $juegos_alta_hoy= juegos_alta_hoy($fecha, $db);
+        $juegos_alta_hoy= juegos_alta_hoy($fecha, $_SESSION['turno'], $db);
         $juegos_hoy= array();
         while($row = mysqli_fetch_assoc($juegos_alta_hoy)){
             array_push($juegos_hoy, $row['juego']);
