@@ -88,6 +88,7 @@ footer
     text-decoration: none;
     padding-left: 1em;
     padding-right: 1em;
+    background-color: grey;
 }
 
 .contacta:hover
@@ -95,7 +96,6 @@ footer
     background-color: white;
     color: black;
 }
-
 .siete
 {
     color: #5892F0;
