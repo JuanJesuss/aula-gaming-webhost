@@ -80,8 +80,8 @@ function eliminar_tildes($cadena){
     return $cadena;
 }
 
-function juegos_alta_hoy($fecha, $db){
-    $sql= "select juego from juegos where fecha='$fecha';";
+function juegos_alta_hoy($fecha, $turno, $db){
+    $sql= "select juego from juegos where fecha='$fecha' and turno='$turno';";
     if(mysqli_query($db, $sql)){
         $result= mysqli_query($db, $sql);
         return $result;
