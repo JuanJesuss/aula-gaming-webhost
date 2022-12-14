@@ -1,3 +1,9 @@
+DROP DATABASE IF EXISTS `id20001675_aulagaming`;
+
+CREATE DATABASE `id20001675_aulagaming`;
+
+USE `id20001675_aulagaming`;
+
 CREATE TABLE `alumnos`
 (
     `email` VARCHAR(60) NOT NULL,
