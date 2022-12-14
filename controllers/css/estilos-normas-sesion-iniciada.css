@@ -74,6 +74,7 @@ footer
     padding-left: 1em;
     padding-right: 1em;
     border-right: 1px solid white;
+    background-color: grey;
 }
 
 .normas:hover
