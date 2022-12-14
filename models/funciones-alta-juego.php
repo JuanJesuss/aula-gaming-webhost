@@ -31,8 +31,8 @@ function eliminar_tildes($cadena){
     return $cadena;
 }
 
-function obtener_juegos($db){
-    $sql= "select juego from juegos;";
+function obtener_juegos($fecha, $turno, $db){
+    $sql= "select juego from juegos where fecha='$fecha' and turno='$turno';";
     if(mysqli_query($db, $sql)){
         $result= mysqli_query($db, $sql);
         return $result;
@@ -51,8 +51,8 @@ function obtener_id_todos_juegos($db){
         echo "Error: ".$sql."<br/>".mysqli_error($db);
 }
 
-function obtener_id_juegos_hoy($fecha, $db){
-    $sql= "select id from juegos where fecha='$fecha';";
+function obtener_id_juegos_hoy($fecha, $turno, $db){
+    $sql= "select id from juegos where fecha='$fecha' and turno='$turno';";
     if(mysqli_query($db, $sql)){
         $result= mysqli_query($db, $sql);
         return $result;
@@ -61,8 +61,8 @@ function obtener_id_juegos_hoy($fecha, $db){
         echo "Error: ".$sql."<br/>".mysqli_error($db);
 }
 
-function alta_juego($id, $juego, $fecha, $db){
-    $sql= "INSERT INTO juegos(ID, JUEGO, FECHA) VALUES ('$id', '$juego', '$fecha');";
+function alta_juego($id, $juego, $fecha, $turno, $db){
+    $sql= "INSERT INTO juegos(ID, JUEGO, FECHA, TURNO) VALUES ('$id', '$juego', '$fecha', '$turno');";
     if(!mysqli_query($db, $sql))
         echo "Error: ".$sql."<br/>".mysqli_error($db);
     else
