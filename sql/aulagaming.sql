@@ -41,5 +41,6 @@ CREATE TABLE `juegos`
     `id` VARCHAR(2) NOT NULL,
     `juego` VARCHAR(50) NOT NULL,
     `fecha` DATE NOT NULL,
+    `turno` VARCHAR(10) NOT NULL,
     CONSTRAINT `PK_juegos_id` PRIMARY KEY (`id`)
 ) ENGINE=InnoDB;
